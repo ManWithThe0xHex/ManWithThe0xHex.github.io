@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2024.5" exportTime="Fri Mar 20 13:31:55 PET 2026">
+  <item>
+    <time>Fri Mar 20 13:30:17 PET 2026</time>
+    <url><![CDATA[http://lonely-island.picoctf.net:63788/vuln.php?q=insane&PHPSESSID=6602bf6f658360e74a2519cfd2f051b8]]></url>
+    <host ip="18.116.9.114">lonely-island.picoctf.net</host>
+    <port>63788</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/vuln.php?q=insane&PHPSESSID=6602bf6f658360e74a2519cfd2f051b8]]></path>
+    <extension>php</extension>
+    <request base64="true"><![CDATA[R0VUIC92dWxuLnBocD9xPWluc2FuZSZQSFBTRVNTSUQ9NjYwMmJmNmY2NTgzNjBlNzRhMjUxOWNmZDJmMDUxYjggSFRUUC8xLjENCkhvc3Q6IGxvbmVseS1pc2xhbmQucGljb2N0Zi5uZXQ6NjM3ODgNClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6MTQ4LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTQ4LjANCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44DQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLVVTLGVuO3E9MC45DQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpSZWZlcmVyOiBodHRwOi8vbG9uZWx5LWlzbGFuZC5waWNvY3RmLm5ldDo2Mzc4OC92dWxuLnBocA0KQ29va2llOiBQSFBTRVNTSUQ9NjYwMmJmNmY2NTgzNjBlNzRhMjUxOWNmZDJmMDUxYjgNClVwZ3JhZGUtSW5zZWN1cmUtUmVxdWVzdHM6IDENClByaW9yaXR5OiB1PTAsIGkNCg0K]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>
