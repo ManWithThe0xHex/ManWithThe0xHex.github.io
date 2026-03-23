@@ -1,8 +1,9 @@
 ---
 title: Hidden Cipher 1
 date: 2026-03-23 00:09:39 
-categories: [ctf, picoctf, "2026", reverse engineering]
-tag: [picoctf, reverse engineering, easy, cipher, upx, pwntools]
+categories: [ctf, picoctf, "2026", reverse-engineering]
+tag: [picoctf, easy, cipher, upx, pwntools]
+image: /assets/Hidden-Cipher-1/images/description.png
 ---
 
 **1. File download:** [hiddencipher.zip](/assets/Hidden-Cipher-1/hiddencipher.zip)
