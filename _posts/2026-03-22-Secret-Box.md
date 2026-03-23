@@ -1,6 +1,6 @@
 ---
 title: Secret Box
-date: 2026-03-22 14:43:44 
+date: 2026-03-22 21:22:14 
 categories: [ctf, picoctf, "2026", web explotation, walkthrough]
 tag: [picoctf, web explotation, medium, sql injection, insert]
 ---
@@ -29,7 +29,7 @@ By submitting a malformed secret containing a single quote (`'`), we triggered a
 The resulting error message leaked our UUID:
 ![](/assets/Secret-Box/images/owner_id.png)
 # Exploitation (SQL Injection / Data Exfiltration)
-Using the leaked `owner_id`, I crafted a **Stacked Query** payload. This payload closes the original `INSERT` statement and executes a new one that copies every entry in the `secrets` table (including the flag) and assigns them to our `owner_id`.
+Using the leaked `owner_id`, I crafted a payload. This payload closes the original `INSERT` statement and  use select to copy every entry in the `secrets` table (including the flag) and assigns them to our `owner_id`.
 
 ```sql
 aaaaaaa');
