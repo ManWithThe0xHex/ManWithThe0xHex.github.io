@@ -1,6 +1,6 @@
 ---
 title: Gatekeeper
-date: 2026-03-22 22:52:16 
+date: 2026-03-22 22:55:23 
 categories: [ctf, picoctf, "2026", reverse Engineering]
 tag: [picoctf, easy, reverse engineering, hex, logic flaw]
 ---
@@ -9,7 +9,7 @@ tag: [picoctf, easy, reverse engineering, hex, logic flaw]
 
 ![](/assets/Gatekeeper/images/description.png)
 
-# File Analisis
+# File Analysis
 
 Initial identification of the binary shows it is a standard 64-bit Linux executable. The fact that it is not stripped is helpful, as it likely contains debugging symbols that make analysis easier.
 
