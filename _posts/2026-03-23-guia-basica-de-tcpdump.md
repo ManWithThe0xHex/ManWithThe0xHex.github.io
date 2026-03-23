@@ -3,7 +3,7 @@ title: Guía Básica de TCPDUMP
 date: 2026-03-23 14:42:12
 categories: [Network, security]
 tags: [network, security, tcpdump, tcp, sniffing]
-img_path: /assets/Guia-Basica-de-TCPDUMP/tcpdump-structure.png
+image: /assets/Guia-Basica-de-TCPDUMP/tcpdump-structure.png
 ---
 
 <!--# Guia Básica de TCPDump -->
